@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portofolio | Muhammad Daffa Aufa Alwan</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- ===== Header ===== -->
+  <header class="hero">
+    <div class="container">
+      <h1>Muhammad Daffa Aufa Alwan</h1>
+      <p>Mahasiswa Teknik Elektro & Informatika | Web & AI Enthusiast</p>
+      <a href="#tentang" class="btn">Lihat Profil</a>
+    </div>
+  </header>
+
+  <!-- ===== Navigasi ===== -->
+  <nav class="navbar">
+    <ul>
+      <li><a href="#tentang">Tentang</a></li>
+      <li><a href="#pendidikan">Pendidikan</a></li>
+      <li><a href="#kontak">Kontak</a></li>
+    </ul>
+  </nav>
+
+  <!-- ===== Konten Utama ===== -->
+  <main>
+    <!-- Tentang -->
+    <section id="tentang" class="section">
+      <h2>Tentang Saya</h2>
+      <div class="about">
+        <img src="foto.jpg" alt="Foto Daffa" class="profile" />
+        <p>
+          Halo! Saya <strong>Muhammad Daffa Aufa Alwan</strong>, mahasiswa Teknik Elektro Universitas Lampung
+          dengan minat di bidang <em>Teknik Informatika</em>, <u>kecerdasan buatan</u>, dan pengembangan <em>website</em>.
+          Saya bersemangat dalam mengintegrasikan teknologi untuk menciptakan solusi digital yang berdampak nyata.
+        </p>
+      </div>
+    </section>
+
+    <!-- Pendidikan -->
+    <section id="pendidikan" class="section bg-light">
+      <h2>Pendidikan</h2>
+      <table>
+        <tr>
+          <th>Tahun</th>
+          <th>Institusi</th>
+          <th>Program Studi</th>
+        </tr>
+        <tr>
+          <td>2023 - Sekarang</td>
+          <td>Universitas Lampung</td>
+          <td>Teknik Elektro (Teknik Informatika)</td>
+        </tr>
+      </table>
+    </section>
+
+    <!-- Kontak -->
+    <section id="kontak" class="section">
+      <h2>Hubungi Saya</h2>
+      <form action="#" method="post" class="contact-form">
+        <label for="nama">Nama:</label>
+        <input type="text" id="nama" name="nama" placeholder="Masukkan nama anda" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="contoh@email.com" required>
+
+        <label for="pesan">Pesan:</label>
+        <textarea id="pesan" name="pesan" rows="5" placeholder="Tulis pesan anda..." required></textarea>
+
+        <button type="submit" class="btn">Kirim Pesan</button>
+      </form>
+    </section>
+  </main>
+
+  <!-- ===== Footer ===== -->
+  <footer>
+    <p>&copy; 2025 Muhammad Daffa Aufa Alwan | Dibuat dengan  menggunakan HTML & CSS</p>
+  </footer>
+</body>
+</html>
